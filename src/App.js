@@ -3,6 +3,7 @@ import "./styles.css";
 
 export default function App() {
   const [inputText, setInputText] = useState("");
+  
   const handelTextChange = (e) => {
     setInputText(e.target.value);
     // console.log(e.target.value);
@@ -16,7 +17,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>Window.postMessage() Example</h1>
-      <input
+        <input
         type="text"
         value={inputText}
         // onChange={(e) => setInputText(e.target.value)}
