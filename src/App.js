@@ -10,7 +10,7 @@ export default function App() {
 
   const postMessageFnc = () => {
     window.postMessage(inputText);
-    // alert("here : " + inputText);
+    alert("here : " + inputText);
   };
 
   return (
